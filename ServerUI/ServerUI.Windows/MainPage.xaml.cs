@@ -141,6 +141,8 @@ namespace ServerUI
             App ap = (App)App.Current;
             port.IsEnabled = false;
             mode++;
+            // TODO: add waiting animation
+
             if (await ap.CreateListener())
             {
                 await Task.Delay(100);// If successfully connected, play green animation
