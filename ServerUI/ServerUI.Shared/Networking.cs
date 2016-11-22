@@ -10,7 +10,7 @@ namespace ServerUI
     {
        static public async Task<bool> sendIP(string IP)
         {
-            string address = "http://hereandafter.ru/qd_IP.php/";
+            string address = "http://r96368pp.bget.ru//qd_IP.php/";
             WebRequest request = WebRequest.Create(address + "?ip=" + IP);
             WebResponse response = await request.GetResponseAsync();
             StreamReader stream = new StreamReader(response.GetResponseStream());
