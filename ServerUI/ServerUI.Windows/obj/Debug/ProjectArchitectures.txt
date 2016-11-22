@@ -1,0 +1,1 @@
+C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\ServerUI.Windows.csproj;neutral

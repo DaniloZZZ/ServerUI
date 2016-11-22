@@ -1,0 +1,75 @@
+﻿<Page
+    x:Class="ServerUI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ServerUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:viewmodel="using:ServerUI.Data"
+    >
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="2,0,-2,0">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="9*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,14,10,13" Height="49" Width="168" >
+            <TextBlock  FontSize="40" HorizontalAlignment="Left" Margin="0,0,6,0" Foreground="#FFCA7FFF" FontFamily="Verdana" FontWeight="Bold" >Qd</TextBlock>
+            <TextBlock  FontSize="36" HorizontalAlignment="Left" VerticalAlignment="Bottom">Server</TextBlock>
+        </StackPanel>
+        <TextBlock  x:Name="ipadress" x:FieldModifier="public" Grid.RowSpan="2" Text="{Binding BindingSample}" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="68,63,0,0" Grid.Column="1"/>
+
+        <Slider x:Name="slider" Margin="10,0" Grid.Row="1" Maximum="1000" 
+                Value="{Binding slider_val  }" FontSize="18"  ValueChanged="slider_ValueChanged" VerticalAlignment="Bottom" Minimum="1" MaxWidth="800" Height="40"/>
+
+        <TextBlock x:Name="Status" FontSize="18"
+                   VerticalAlignment="Center" TextWrapping="Wrap" Margin="220,37,0,21" MaxWidth="200" HorizontalAlignment="Left" Text="Status"/>
+
+        <Grid Grid.Row="1" Margin="10,10,10,40">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="8*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid x:Name="SentGraph" Margin="10,0,0,5" Background="#FF292020" Grid.Column="1"/>
+            <Grid x:Name="TimesGraph" Margin="10,5,0,0"  Grid.Row="1" Background="#FF292020" Grid.Column="1"/>
+            <Grid x:Name="GetGraph" Margin="0,0,10,0" Background="#FF201E21" Grid.RowSpan="2" />
+        </Grid>
+
+        <Button Margin="-3,2,0,436" Click="Button_Click" Grid.Row="2">tst</Button>
+        <Ellipse x:Name="Circle"  Fill="#FFF4F4F5" HorizontalAlignment="Center" Height="100" Grid.Row="2" VerticalAlignment="Center" Width="100" Margin="0,-100,0,0" Grid.ColumnSpan="2" PointerPressed="Circle_PointerPressed"/>
+        <Grid x:Name="Side" Margin="0,-5,-240,0" Grid.RowSpan="3" Grid.Column="1" HorizontalAlignment="Right" Width="290
+              ">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="50"/>
+                <ColumnDefinition Width="240"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="85*"/>
+                <RowDefinition Height="642*"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+            <ScrollViewer Margin="0,0,0,0" Grid.Row="1" Grid.Column="1" Background="#FF212B36" MaxHeight="688">
+                <TextBlock x:Name="cons" FontSize="14 " Text="Console ready" Grid.Row="1" Margin="10,10,0,0" TextWrapping="Wrap" />
+            </ScrollViewer>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Grid.Column="1" Background="#FF2A3746" Margin="0,0,0,0" >
+                <TextBox x:Name="port" VerticalAlignment="Center" HorizontalAlignment="Left" 
+                    FontSize="18" PlaceholderText="Port number" Text="8080" Width="75" MaxLength="5" Margin="10,0,15,0" Height="30" Padding="10,0"/>
+                <Button x:Name="run" Click="run_Click" Margin="0,0,15,0" Content="Listen to port" Width="125" />
+            </StackPanel>
+            <Rectangle x:Name="OpnSide" Fill="#FF8181DC" Margin="0,23,10,22" VerticalAlignment="Center" Height="40" PointerEntered="OpnSide_PointerEntered"/>
+            <Grid Grid.Column="1" Margin="0" Grid.Row="2" Background="#FF2A3746">
+                <Button x:Name="ConsDrop" Content="Clear console" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="20,0,0,0" Click="ConsDrop_Click"/>
+                <TextBlock x:Name="ConsIttxt" HorizontalAlignment="Right" Margin="0,9" TextWrapping="Wrap" Text="items" VerticalAlignment="Center" FontSize="16" Padding="0,0,20,0"/>
+
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Page>

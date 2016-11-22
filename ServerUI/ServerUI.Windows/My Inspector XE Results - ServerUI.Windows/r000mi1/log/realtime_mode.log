@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feedback>
+ <message severity="info">Analysis started...</message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\My Inspector XE Results - ServerUI.Windows\r000mi1\r000mi1.inspxe </message>
+ <nop/>
+ <message severity="warning">Non-fatal internal problem was detected and logged.</message>
+ <nop/>
+ <message severity="error">An internal error has occurred. Our apologies for this inconvenience. Please gather a description of the steps leading up to the problem and contact the Intel customer support team.</message>
+ <nop/>
+ <message severity="info">Application exit code: -1 </message>
+ <nop/>
+ <message severity="info">Result file: C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\My Inspector XE Results - ServerUI.Windows\r000mi1\r000mi1.inspxe </message>
+ <nop/>
+ <message severity="info">Analysis terminated</message>
+ <nop/>
+</feedback>

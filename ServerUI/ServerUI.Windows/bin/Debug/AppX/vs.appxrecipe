@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ASUS</Machine>
+    <WindowsUser>pc_D</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1cd80482-bd33-4765-9062-fe87a0dd5230</PackageIdentityName>
+    <PackageIdentityPublisher>CN=pc_D</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>1D64F2CE94DCDE49F8F2DE1A8FF67C7DD9D59707450E4EC6B51CE214BC48C223</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1cd80482-bd33-4765-9062-fe87a0dd5230_1.0.0.0_neutral__ycc51vh57bxnw</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1cd80482-bd33-4765-9062-fe87a0dd5230_ycc51vh57bxnw!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1cd80482-bd33-4765-9062-fe87a0dd5230</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=pc_D</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-14T18:31:04.837</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\bin\Debug\ServerUI.Windows.exe">
+      <PackagePath>ServerUI.Windows.exe</PackagePath>
+      <Modified>2016-11-16T16:50:56.406</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-14T20:31:08.326</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-14T20:29:59.369</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-11-14T20:28:55.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T20:16:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\bin\Debug\ServerUI.Windows.xr.xml">
+      <PackagePath>ServerUI.Windows.xr.xml</PackagePath>
+      <Modified>2016-10-31T13:16:58.601</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-10-21T15:43:45.693</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-10-31T13:28:13.914</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-11-14T18:31:04.135</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>8a335c3e-b12e-47a5-99a1-6d23487fa87f</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ServerUI</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Data\DataService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Recording.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Data\Stack.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Graph.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Networking.cs" />
+  </ItemGroup>
+</Project>

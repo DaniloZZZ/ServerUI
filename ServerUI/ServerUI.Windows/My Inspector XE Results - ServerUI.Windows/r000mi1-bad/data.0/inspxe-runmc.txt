@@ -1,0 +1,10 @@
+
+=== Start: [2016/10/24 01:09:55] === 
+Analysis started...
+Result file: C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\My Inspector XE Results - ServerUI.Windows\r000mi1\r000mi1.inspxe 
+Warning: Non-fatal internal problem was detected and logged.
+Error: An internal error has occurred. Our apologies for this inconvenience. Please gather a description of the steps leading up to the problem and contact the Intel customer support team.
+Application exit code: -1 
+Result file: C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\My Inspector XE Results - ServerUI.Windows\r000mi1\r000mi1.inspxe 
+Analysis terminated
+=== End: [2016/10/24 01:09:59] === 

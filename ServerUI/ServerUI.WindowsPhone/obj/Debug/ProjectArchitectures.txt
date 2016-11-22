@@ -1,0 +1,1 @@
+C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.WindowsPhone\ServerUI.WindowsPhone.csproj;neutral

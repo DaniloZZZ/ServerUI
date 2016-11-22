@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<log version="1.0" tool="runtool">
+
+<msg id="1" tool="runtool">
+  <type>log-start</type>
+  <arg>2016/10/24 01:09:55</arg>
+</msg>
+<msg id="2" tool="runtool">
+  <type>collector-starts</type>
+</msg>
+<msg id="3" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\My Inspector XE Results - ServerUI.Windows\r000mi1\r000mi1.inspxe</arg>
+</msg>
+<msg id="4" tool="runtool">
+  <type>internal-warning</type>
+  <description>Incorrect arguments for message type: [40]</description>
+</msg>
+<msg id="5" tool="pin">
+  <type>40</type>
+  <arg>&quot;C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\bin\Debug\ServerUI.Windows.exe&quot;</arg>
+  <description>Cannot execute file. System error: System error 193 : %1 is not a valid Win32 application.  . File name: &quot;C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\bin\Debug\ServerUI.Windows.exe&quot; </description>
+  <severity>ERROR</severity>
+  <timestamp>Sat Jan 21 01:09:55 2017 </timestamp>
+  <pinversion>3.0</pinversion>
+  <kitnumber>76284</kitnumber>
+</msg>
+<msg id="6" tool="pin">
+  <type>1</type>
+  <description>Pin is exiting due to fatal error </description>
+  <severity>ERROR</severity>
+  <timestamp>Sat Jan 21 01:09:56 2017 </timestamp>
+  <pinversion>3.0</pinversion>
+  <kitnumber>76284</kitnumber>
+</msg>
+<msg id="7" tool="runtool">
+  <type>app-exit-code</type>
+  <arg>-1</arg>
+</msg>
+<msg id="8" tool="runtool">
+  <type>marker-file</type>
+  <arg>C:\Users\pc\documents\visual studio 2015\Projects\ServerUI\ServerUI\ServerUI.Windows\My Inspector XE Results - ServerUI.Windows\r000mi1\r000mi1.inspxe</arg>
+</msg>
+<msg id="9" tool="runtool">
+  <type>collector-aborted</type>
+</msg>
+<msg id="10" tool="runtool">
+  <type>log-end</type>
+  <arg>2016/10/24 01:09:59</arg>
+</msg>
+
+</log>
+
